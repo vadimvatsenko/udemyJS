@@ -1,4 +1,7 @@
 //20.Условия
+//Принятие решений в вашем коде — условные конструкции
+//https://developer.mozilla.org/ru/docs/Learn/JavaScript/Building_blocks/conditionals
+
 "use strict";
 if (4 === 9) {
     console.log('OK!')

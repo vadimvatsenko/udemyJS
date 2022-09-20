@@ -1,3 +1,5 @@
+// https://github.com/yankovalenko94/JS_task_answers/tree/master/JS_step_1
+
 // 19. Практика, ч.1. Начинаем создавать приложение
 
 /* Задание на урок:

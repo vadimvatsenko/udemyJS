@@ -1,4 +1,5 @@
 // 21. Логичиские операторы
+
 const hamburger = true;
 const fries = false;
 
