@@ -52,5 +52,5 @@ Promise.all([newTime(1000), newTime(2000)]).then(() => {//ждет выполн�
 });
 
 Promise.race([newTime(1000), newTime(2000)]).then(() => {//ждет выполнение первого promisse
-    console.log('Race')
+    console.log('Race');
 })

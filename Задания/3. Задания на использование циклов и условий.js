@@ -11,7 +11,7 @@ for (let i = 5; i <= 10; i++) {
 
 for (let i = 20; i >= 10; i--){
     console.log(i);
-    if (i === 13) {
+    if (i === 14) {
         break;
     }
 }
@@ -47,6 +47,21 @@ while (i < 16) {
     }
     i += 1;
 }
+//v2
+function fourthTask() {
+    // Пишем решение вот тут
+    let i = 2;
+    do {
+        i++;
+        if (i % 2 ) {
+            console.log(i);
+        }
+    }
+    while (i < 16);
+    
+}
+
+fourthTask();
 
 //5 Заполните массив цифрами от 5 до 10 включительно. Помните, что элементы массива можно сформировать так же, как и обращаться к ним: arr[0]
 
@@ -62,3 +77,20 @@ for (i = 5; i <= 10; i++){
 
 console.log(arrayOfNumbers);
 return arrayOfNumbers;
+
+//v2
+function fifthTask() {
+    const arrayOfNumbers = [];
+    
+    // Пишем решение вот тут
+    for (let i = 5; i <= 10; i += 1){
+        arrayOfNumbers.push(i);
+        console.log(i);
+        console.log(arrayOfNumbers);
+    }
+    
+    // Не трогаем
+    return arrayOfNumbers;
+}
+
+fifthTask();
